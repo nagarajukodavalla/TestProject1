@@ -1,12 +1,12 @@
 package TestPackage;
 
+import org.testng.annotations.Test;
+
 public class SampleTest {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-			System.out.println("This is java class");
-	
-	
-	}
-
+  @Test
+  public void f() {
+	  
+	  System.out.println("Java Class");
+	  
+  }
 }
